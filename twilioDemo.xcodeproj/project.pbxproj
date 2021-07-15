@@ -11,6 +11,10 @@
 		7CB6AF2B269FBE8500F1564F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB6AF2A269FBE8500F1564F /* ContentView.swift */; };
 		7CB6AF2D269FBE8700F1564F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CB6AF2C269FBE8700F1564F /* Assets.xcassets */; };
 		7CB6AF30269FBE8700F1564F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CB6AF2F269FBE8700F1564F /* Preview Assets.xcassets */; };
+		7CB6AF3E269FBF8D00F1564F /* VerificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB6AF3D269FBF8D00F1564F /* VerificationView.swift */; };
+		7CB6AF40269FBFC800F1564F /* VerificationVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB6AF3F269FBFC800F1564F /* VerificationVM.swift */; };
+		7CB6AF42269FC12700F1564F /* Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7CB6AF41269FC12700F1564F /* Config.plist */; };
+		7CB6AF44269FC24E00F1564F /* VerificationVMNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB6AF43269FC24E00F1564F /* VerificationVMNode.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +24,10 @@
 		7CB6AF2C269FBE8700F1564F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7CB6AF2F269FBE8700F1564F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7CB6AF31269FBE8700F1564F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CB6AF3D269FBF8D00F1564F /* VerificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerificationView.swift; sourceTree = "<group>"; };
+		7CB6AF3F269FBFC800F1564F /* VerificationVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerificationVM.swift; sourceTree = "<group>"; };
+		7CB6AF41269FC12700F1564F /* Config.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Config.plist; sourceTree = "<group>"; };
+		7CB6AF43269FC24E00F1564F /* VerificationVMNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerificationVMNode.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +65,10 @@
 				7CB6AF2C269FBE8700F1564F /* Assets.xcassets */,
 				7CB6AF31269FBE8700F1564F /* Info.plist */,
 				7CB6AF2E269FBE8700F1564F /* Preview Content */,
+				7CB6AF3D269FBF8D00F1564F /* VerificationView.swift */,
+				7CB6AF3F269FBFC800F1564F /* VerificationVM.swift */,
+				7CB6AF43269FC24E00F1564F /* VerificationVMNode.swift */,
+				7CB6AF41269FC12700F1564F /* Config.plist */,
 			);
 			path = twilioDemo;
 			sourceTree = "<group>";
@@ -126,6 +138,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CB6AF42269FC12700F1564F /* Config.plist in Resources */,
 				7CB6AF30269FBE8700F1564F /* Preview Assets.xcassets in Resources */,
 				7CB6AF2D269FBE8700F1564F /* Assets.xcassets in Resources */,
 			);
@@ -138,6 +151,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CB6AF44269FC24E00F1564F /* VerificationVMNode.swift in Sources */,
+				7CB6AF3E269FBF8D00F1564F /* VerificationView.swift in Sources */,
+				7CB6AF40269FBFC800F1564F /* VerificationVM.swift in Sources */,
 				7CB6AF2B269FBE8500F1564F /* ContentView.swift in Sources */,
 				7CB6AF29269FBE8500F1564F /* twilioDemoApp.swift in Sources */,
 			);
